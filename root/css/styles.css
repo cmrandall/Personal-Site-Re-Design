@@ -1,0 +1,286 @@
+/*-------------
+	 Global
+ ------------- */
+ 
+.row {
+	margin: 1% 1% 0 1%;
+}
+ 
+ .container {
+ 	position: relative;
+ 	padding: 0;
+ }
+
+.bottomBorder {
+	padding: 0;
+	border-bottom: 2px solid black;
+}
+
+body {
+	margin: 0;
+}
+
+/*-------------
+	Nav Bar
+ ------------- */
+
+.navbar-brand {
+	height: auto;
+	padding: 0;	
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.nav {
+	width: 300px;
+	margin-top: 50px;
+}
+
+.nav li {
+	height: 45px;
+	width: 30%;
+	float: none;
+	list-style: none;
+	display: inline-block;
+	border-radius: 47%;
+	background-color: rgb(23, 90, 117);
+	box-shadow: 0px 3px 5px #444;
+	-moz-box-shadow: 0px 3px 5px #444;
+	-webkit-box-shadow: 0px 3px 5px #444;
+}
+
+.nav a {
+	padding-left: 2%;
+	border: 1px solid black;
+	color: rgb(191, 174, 142);
+}
+
+.nav a:hover {
+	color: white;
+}
+
+#divider {
+	height: 20px;
+	width: 100%;
+	background-color: rgb(23, 90, 117);
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 2px 0px rgb(189,208,215) inset; 
+
+}
+
+
+/*-------------
+	About Me
+ ------------- */
+
+.portrait {
+	background-color: rgb(23, 90, 117);
+	border-radius: 10%;
+	box-shadow: 1px 2px 0px rgb(179,188,196) inset,
+					-2px -2px 2px black inset;
+}
+
+.portrait img {
+	width: 90%;
+	height: 100%;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+#onlineCourses li {
+	padding-left: 1%;
+	list-style: circle;
+	display: inline-block;
+}
+
+#onlineCourses > li:nth-child(2) {
+	padding-right: 1%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+/*-------------
+   Portfolio
+ ------------- */
+
+h2 {
+	margin-top: 0;
+}
+
+#portfolioList {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30%;
+}
+
+#portfolioList li {
+	list-style: none;
+}
+
+#gallerySlider {
+	margin: 1% 0 5% 0;
+	height: 300px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.tempClass {
+	height: 65px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+/*----------------
+ Technical Skills
+ -------------- */
+
+.graph {
+	width: 90%;
+	height: 160px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+    border-left: 2px solid #aeaeae;
+    border-bottom: 2px solid #333;
+}
+
+.barwrap {
+	height: 160px;
+	float: left;
+	width: 3em;
+	position: relative;
+	margin-left: 6%;
+}
+
+.bar {
+	width: 3em;
+	position: absolute;
+	z-index: -1; 
+    bottom: 0;
+    background-color: #aeaeae;	
+	padding-bottom: 0;
+	-moz-box-shadow: 0px -1px 12px #444;
+	-webkit-box-shadow: 0px -1px 12px #444
+}
+
+.dark {
+	background-color: rgb(42, 67, 89);
+}
+
+.light {
+	background-color: rgb(53, 101, 143);
+}
+
+.bar p {
+	width: 90%;
+	color: white;
+	position: absolute;
+	bottom: .6em;
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+}
+
+.exposures {
+	height: 50px;
+	color: white;
+	text-align: center;
+	border-radius: 43%;
+	font-size: .7em;
+	padding-top: 4%;
+	margin: 1%;
+	background-color: rgb(50, 100, 143);
+	box-shadow: 0px 3px 5px #444;
+	-moz-box-shadow: 0px 3px 5px #444;
+	-webkit-box-shadow: 0px 3px 5px #444;	
+}
+
+.exposures:last-child {
+	padding-top: 3%;
+}
+
+
+/*--------------------
+	Education Sliders
+ --------------------- */
+#rightBorder {
+	border-right: 1px solid grey;
+}
+
+.slidesjs-container {
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	background-color: rgb(0, 91, 127);
+	box-shadow: 3px 3px 0px rgb(179,188,196) inset,
+				-1px -3px 2px black inset;
+}
+
+#slides2 img, #slides3 img {
+	width: 80%;
+}
+
+#slides3 img {
+	padding: 2% 0 1% 0;
+	margin-left: 5.3%;
+	height: 98%;
+	width: 90% !important;
+}
+
+.slidesjs-pagination {
+	padding: 0;
+}
+
+.slidesjs-pagination li {
+	width: 10px;
+	height: 10px;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid black;
+	float: left;
+	list-style: none;
+	border-radius: 100%;
+}
+
+.slidesjs-previous,
+.slidesjs-next,
+.slidesjs-previous:hover,
+.slidesjs-next:hover,
+.slidesjs-previous:visited,
+.slidesjs-next:visited, {
+	text-decoration: none;
+}
+
+/*-------------
+     Footer
+ ------------- */
+
+footer {
+	margin-top: 2%;
+	width: 100%;
+	min-height: 50px;
+	background-color: rgb(50, 100, 143);
+}
+
+footer p, footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: rgb(191, 174, 142);
+}
+
+footer a:visited {
+	color: rgb(191, 174, 142);
+}
+
+footer p:nth-child(1) {
+	font-size: 1.5em;
+}
+
